@@ -1,0 +1,38 @@
+/* Style sheet for path of light yoga case study */
+* {
+    background-color: #f5f5f5;
+    color: #3F2860;
+}
+#header {
+    text-align: center;
+    background-color: #9BC1C2;
+}
+h1 {
+    line-height: 200%;
+}
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+nav a {
+    text-decoration: none;    
+}
+.studio {
+    font-style: italic;
+}
+footer {
+    background-color: #9BC1C2;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+}
+/* The fotter anchor tag will not change unless selected this way for background color */
+footer a {
+    background-color: #9BC1C2;
+}
+/* Style for wrapper div*/
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
