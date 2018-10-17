@@ -3,16 +3,25 @@
     background-color: #f5f5f5;
     color: #3F2860;
 }
+body {
+    background-color: #3F2860;
+}
 #header {
-    text-align: center;
+    background-image: url("../images/lilyheader.jpg");
+    background-repeat: no-repeat;
     background-color: #9BC1C2;
+    background-position: right;
+    /* The height is different for my display, the book says to set it to 150px but it doesnt display right unless its at 100px*/
+    height: 100px;
 }
 h1 {
-    line-height: 200%;
+    padding-top: 50px;
+    padding-left: 2em;
 }
 nav {
     text-align: center;
     font-weight: bold;
+    padding: 1em;
 }
 nav a {
     text-decoration: none;    
@@ -25,8 +34,9 @@ footer {
     font-size: .60em;
     font-style: italic;
     text-align: center;
+    padding: 1em;
 }
-/* The fotter anchor tag will not change unless selected this way for background color */
+/* The footer anchor tag will not change unless selected this way for background color */
 footer a {
     background-color: #9BC1C2;
 }
@@ -35,4 +45,18 @@ footer a {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    background-color: #f5f5f5;
+    min-width: 1000px;
+    max-width: 1280px;
+}
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+img {
+    padding-left: 2em;
+    padding-right: 2em;   
+}
+#hero {
+    text-align: center;
 }
