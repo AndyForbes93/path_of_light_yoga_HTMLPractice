@@ -9,6 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Link to stylesheet-->
     <link rel="stylesheet" href="css/yoga.css">
+    <!--[if lt IE 9]>
+    <script src="html5shiv.js"></script>
+    <![endif]--> 
 </head>
 
 <body>
@@ -21,15 +24,17 @@
 
         <!--Nav Bar-->
         <nav>
-            <a href="index.html">Home</a>&nbsp;
-            <a href="classes.html">Classes</a>&nbsp;
-            <a href="schedule.html">Schedule</a>&nbsp;
-            <a href="">Contact</a>&nbsp;
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
         </nav>
         <!--Main Content-->
         <main>
             <!--Yoga door img-->
-            <img src="images/yogadoor.jpg" alt="Yoga Door" align="right" width="225px" height="300px">
+            <img src="images/yogadoor2.jpg" alt="Yoga Door" class="floatLeft" width="225px" height="300px">
             <h2>Find Your Inner Light</h2>
             <p><span class="studio">Path of Light Yoda Studios</span> provides all levels of yoga practice in a
                 tranquil,
@@ -45,7 +50,7 @@
                 <li>Relax in our Serenity Lounge before or after your class</li>
             </ul>
             <!--div for address-->
-            <div>
+            <div class="clear">
                 <span class="studio">Path of Light Yoda Studio</span>
                 <br> 612 Serenity Way
                 <br> El Dorado, CA 96162
